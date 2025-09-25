@@ -1,5 +1,17 @@
-.card-1 h1 {
-  /* Style for card 1 (your box model example */
-  color: red;
-  margin-left: 1.5in;
+.card-1 .card-front h1 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }
+.card-1 .card-front h2 {
+  color: rgb(104, 104, 232);
+  font-size: 10px;
+}
+.card-1 .card-front p {
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+}
+
