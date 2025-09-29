@@ -1,17 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 .card-1 .card-front h1 {
   color: rgb(0, 0, 0);
-  font-size: 30px;
-  border: 2px solid rgb(0, 0, 0);
-  margin: 0;
-  padding: 0;
+  font-size: 45px;
+  margin-top: 0.05in;
+  margin-left: 0.2in;
+  margin-bottom : 0.1in;
   text-align: left;
+  display: inline-block;
+  font-family: 'Tangerine', cursive;
 }
 .card-1 .card-front h2 {
-  color: rgb(104, 104, 232);
-  font-size: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-top: 0.2in;
+  margin-bottom: 0.4in;
+  text-align: center;
 }
-.card-1 .card-front p {
+.address {
   color: rgb(0, 0, 0);
   font-size: 10px;
+  text-align: center;
 }
-
+.phone {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: right;
+  display: inline-block;
+}
+.card-1 .card-front {
+  background-color: rgb(255, 178, 115);
+}
+.card-1 .card-back {
+  background-color: rgb(255, 178, 115);
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..900&display=swap');
+.experience {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 30px;
+  margin-top: 0.2in;
+  margin-bottom: 0.45in;
+  text-align: center;
+}
