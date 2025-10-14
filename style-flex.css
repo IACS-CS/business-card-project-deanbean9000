@@ -1,23 +1,67 @@
-/* Style for card-2 (your flexbox example) */
-.card-landscape-card-2 {
+.card-2 {
   width: 3.5in;
   height: 2in;
-  border: 1px solid black;
-  background-color: rgb(177, 204, 220);
+  margin: 30px auto;
+  border: 3px solid #5a0000;
+  border-radius: 12px;
+  background-color: #7b1113;
+  font-family: 'DM Serif Display', serif;
+  color: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* CSS Code generated with Hinkle's flexbox code generator */
-div.flex-container {		 
+.card-2 .card-front {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap-reverse; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  padding: 8px 10px;
+  box-sizing: border-box;
 }
-/* end generated code */
+
+.mainnameandtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .mainnameandtitle h1 {
-  text-align: center;
+  font-size: 35px;
+  margin-bottom: 4px;
+  color: #fff;
 }
+
 .mainnameandtitle h2 {
-  text-align: center;
-  font-size: 15px;
+  font-size: 11px;
+  font-weight: normal;
+  color: #f4e4e4;
+  margin: 0;
 }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  color: #f8f8f8;
+  margin-top: 4px;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  color: #f8f8f8;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 3px;
+}
+  
